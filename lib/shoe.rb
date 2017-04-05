@@ -18,8 +18,4 @@ class Shoe
   def brand=(brand)
     @brand = brand
   end
-
-  def self.all_instances
-    BRANDS.uniq!
-  end
 end
